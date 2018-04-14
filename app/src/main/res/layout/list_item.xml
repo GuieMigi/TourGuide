@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/poi_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:src="@drawable/ateneul_roman"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:id="@+id/poi_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Ateneul Român" />
+
+        <TextView
+            android:id="@+id/poi_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Strada Benjamin Franklin nr. 1-3, București" />
+
+    </LinearLayout>
+
+</LinearLayout>
