@@ -26,12 +26,14 @@ public class PointOfInterestAdapter extends ArrayAdapter<PointOfInterest> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View listItemView = convertView;
-        if(listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.pointofinterest_list, parent, false);
+        if (listItemView == null) {
+            listItemView = LayoutInflater.from(getContext()).inflate(
+                    R.layout.list_item, parent, false);
         }
 
         // Get the PointOfInterest object located at this position in the list.
         PointOfInterest currentPointOfInterest = getItem(position);
+        assert currentPointOfInterest != null;
 
         // Find the TextView in the list_item.xml layout with the ID poi_name.
         TextView poiNameTextView = listItemView.findViewById(R.id.poi_name);
