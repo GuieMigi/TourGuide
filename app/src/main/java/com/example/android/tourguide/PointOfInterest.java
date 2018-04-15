@@ -13,7 +13,7 @@ public class PointOfInterest extends AppCompatActivity {
     // The address of the Point of Interest.
     private String mPoiAddress;
     // The website of the Point of Interest.
-    private String mPoiWebsite;
+    private String mPoiDescription;
     // The Image of the Point of Interest.
     private int mPoiImage;
 
@@ -23,10 +23,10 @@ public class PointOfInterest extends AppCompatActivity {
         mPoiImage = poiImage;
     }
 
-    public PointOfInterest(String poiName, String poiAddress, String poiWebsite, int poiImage){
+    public PointOfInterest(String poiName, String poiAddress, String poiDescription, int poiImage) {
         mPoiName = poiName;
         mPoiAddress = poiAddress;
-        mPoiWebsite = poiWebsite;
+        mPoiDescription = poiDescription;
         mPoiImage = poiImage;
     }
 
@@ -42,7 +42,7 @@ public class PointOfInterest extends AppCompatActivity {
 
     // Get the Point of Interest website.
     public String getPoiWebsite(){
-        return mPoiWebsite;
+        return mPoiDescription;
     }
 
     // Get the Point of Interest image.
