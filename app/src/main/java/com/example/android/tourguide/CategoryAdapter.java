@@ -11,11 +11,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private Context mContext;
-
     public CategoryAdapter(Context context, android.support.v4.app.FragmentManager fragmentManager){
         super(fragmentManager);
-        mContext = context;
     }
 
     @Override
@@ -23,9 +20,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         if(position == 0){
             return new AttractionsFragment();
         } else if(position == 1){
-            return new RestaurantsFragment();
-        } else if(position == 2){
             return new ParksFragment();
+        } else if(position == 2){
+            return new RestaurantsFragment();
         } else return new NightlifeFragment();
     }
 
@@ -39,9 +36,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         if (position == 0){
             return "Attractions";
         } else if (position == 1){
-            return "Restaurants";
-        } else if (position == 2){
             return "Parks";
+        } else if (position == 2){
+            return "Restaurants";
         } else return "Nightlife";
     }
 }

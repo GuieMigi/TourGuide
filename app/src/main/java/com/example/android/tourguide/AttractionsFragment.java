@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -30,13 +29,17 @@ public class AttractionsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.pointofinterest_list, container, false);
 
         //Create an ArrayList containing the PointOfInterest.
-        final ArrayList<PointOfInterest> pois = new ArrayList<PointOfInterest>();
-        pois.add(new PointOfInterest("Ateneul Român", "Strada Benjamin Franklin nr. 1-3, București",
+        final ArrayList<PointOfInterest> pois = new ArrayList<>();
+        pois.add(new PointOfInterest(getString(R.string.ateneul_roman_name), getString(R.string.ateneul_roman_address),
                 getString(R.string.ateneul_roman_description), R.drawable.ateneul_roman));
-        pois.add(new PointOfInterest("Arcul de Triumf", "Piața Arcul de Triumf, București", R.drawable.arcul_de_triumf));
-        pois.add(new PointOfInterest("Palatul CEC", "Calea Victoriei nr. 13, București", R.drawable.palatul_cec));
-        pois.add(new PointOfInterest("Palatul Parlamentului", "Strada Izvor 2-4, București", R.drawable.palatul_parlamentului));
-        pois.add(new PointOfInterest("Teatrul Național București", "Bulevardul Nicolae Bălcescu nr. 2, București", R.drawable.teatrul_national_bucuresti));
+        pois.add(new PointOfInterest(getString(R.string.arcul_de_triumf_name), getString(R.string.arcul_de_triumf_address),
+                getString(R.string.arcul_de_triumf_description), R.drawable.arcul_de_triumf));
+        pois.add(new PointOfInterest(getString(R.string.palatul_cec_name), getString(R.string.palatul_cec_address),
+                getString(R.string.palatul_cec_description), R.drawable.palatul_cec));
+        pois.add(new PointOfInterest(getString(R.string.palatul_parlamentului_name), getString(R.string.palatul_parlamentului_address),
+                getString(R.string.palatul_parlamentului_description), R.drawable.palatul_parlamentului));
+        pois.add(new PointOfInterest(getString(R.string.teatrul_national_bucuresti_name), getString(R.string.teatrul_national_bucuresti_address),
+                getString(R.string.teatrul_national_bucuresti_description), R.drawable.teatrul_national_bucuresti));
 
         final ListView listView = rootView.findViewById(R.id.list_view);
         PointOfInterestAdapter poiAdapter = new PointOfInterestAdapter(getActivity(), pois);

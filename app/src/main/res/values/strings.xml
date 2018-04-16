@@ -3,7 +3,44 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <!-- Attractions descriptions-->
-    <string name="ateneul_roman_description">The Romanian Athenaeum (Romanian: Ateneul Român) is a concert hall in the center of Bucharest, Romania and a landmark of the Romanian capital city. Opened in 1888, the ornate, domed, circular building is the city\'s main concert hall and home of the "George Enescu" Philharmonic and of the George Enescu annual international music festival.</string>
 
+    <string name="poi_image_description">A representative image showing the point of interest</string>
+    <!-- Attractions names-->
+    <string name="ateneul_roman_name">Ateneul Român</string>
+    <string name="arcul_de_triumf_name">Arcul de Triumf</string>
+    <string name="palatul_cec_name">Palatul CEC</string>
+    <string name="palatul_parlamentului_name">Palatul Parlamentului</string>
+    <string name="teatrul_national_bucuresti_name">Teatrul Național \"Ion Luca Caragiale\" București</string>
+
+    <!-- Attractions addresses-->
+    <string name="ateneul_roman_address">Benjamin Franklin street no. 1&#8211;3, Bucharest, Romania</string>
+    <string name="arcul_de_triumf_address">Arcul de Triumf square, Bucharest, Romania</string>
+    <string name="palatul_cec_address">Victoriei Way no. 13, Bucharest, Romania</string>
+    <string name="palatul_parlamentului_address">Izvor street no. 2&#8211;4, Bucharest, Romania</string>
+    <string name="teatrul_national_bucuresti_address">Nicolae Bălcescu Boulevard no. 2, Bucharest, Romania</string>
+
+    <!-- Attractions descriptions-->
+    <string name="ateneul_roman_description">Ateneul Român(English: The Romanian Athenaeum) is a concert hall in the center of Bucharest, Romania and a landmark of the Romanian capital city. Opened in 1888, the ornate, domed, circular building is the city\'s main concert hall and home of the "George Enescu" Philharmonic and of the George Enescu annual international music festival.</string>
+    <string name="arcul_de_triumf_description">Arcul de Triumf (English: The Arch of Triumph) is a triumphal arch dedicated to the Heroes of the War of Independence and World War I. The Arch is located in the northern part of Bucharest. The current arch has a height of 27 metres and was built after the plans of the architect Petre Antonescu. It has as its foundation a 25 x 11.50 metres rectangle. The sculptures with which the facades are decorated were created by famous Romanian sculptors such as Ion Jalea and Dimitrie Paciurea. Presently, military parades are held beneath the arch each December 1, with the occasion of Romania\'s national holiday.</string>
+    <string name="palatul_cec_description">Palatul CEC (English: The CEC Palace) built in 1900 and situated on Calea Victoriei is the headquarter of CEC Bank. The palace was built as a new headquarters for Romania\'s oldest bank, the public savings institution "Casa de Depuneri, Consemnațiuni și Economie", later known as C.E.C. (Romanian: Casa de Economii și Consemnațiuni), and nowadays CEC Bank.</string>
+    <string name="palatul_parlamentului_description">Palatul Parlamentului (English: The Palace of the Parliament) is the seat of the Parliament of Romania. Located on Dealul Arsenalului in central Bucharest (Sector 5), it is the largest administrative building in the world. A colossal parliament building known for its ornate interior composed of 23 sections, it houses the Senate and the Chamber of Deputies, three museums and an international conference center.</string>
+    <string name="teatrul_national_bucuresti_description">Teatrul Naţional "Ion Luca Caragiale" Bucureşti (English: The "Ion Luca Caragiale" National Theatre Bucharest) is one of the national theatres of Romania, located in the capital city of Bucharest. It was founded as the Teatrul cel Mare din Bucureşti ("Grand Theatre of Bucharest") in 1852, its first director being Costache Caragiale. It became a national institution in 1864 by a decree of Prime Minister Mihail Kogălniceanu, and was officially named as the National Theatre in 1875.</string>
+
+    <!-- TODO: Parks names -->
+
+    <!-- TODO: Parks addresses -->
+
+    <!-- TODO: Parks descriptions -->
+
+    <!-- TODO: Restaurants names -->
+
+    <!-- TODO: Restaurants addresses -->
+
+    <!-- TODO: Restaurants opening hours -->
+
+    <!-- TODO: Nightlife names -->
+
+    <!-- TODO: Nightlife addresses -->
+
+    <!-- TODO: Nightlife opening hours -->
 </resources>
