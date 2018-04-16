@@ -31,7 +31,8 @@ public class AttractionsFragment extends Fragment {
 
         //Create an ArrayList containing the PointOfInterest.
         final ArrayList<PointOfInterest> pois = new ArrayList<PointOfInterest>();
-        pois.add(new PointOfInterest("Ateneul Român", "Strada Benjamin Franklin nr. 1-3, București", R.drawable.ateneul_roman));
+        pois.add(new PointOfInterest("Ateneul Român", "Strada Benjamin Franklin nr. 1-3, București",
+                getString(R.string.ateneul_roman_description), R.drawable.ateneul_roman));
         pois.add(new PointOfInterest("Arcul de Triumf", "Piața Arcul de Triumf, București", R.drawable.arcul_de_triumf));
         pois.add(new PointOfInterest("Palatul CEC", "Calea Victoriei nr. 13, București", R.drawable.palatul_cec));
         pois.add(new PointOfInterest("Palatul Parlamentului", "Strada Izvor 2-4, București", R.drawable.palatul_parlamentului));
@@ -48,6 +49,7 @@ public class AttractionsFragment extends Fragment {
                 Intent openPoiDetails = new Intent(getContext(), PoiDetails.class);
                 openPoiDetails.putExtra("POI_NAME", pointOfInterest.getPoiName());
                 openPoiDetails.putExtra("POI_ADDRESS", pointOfInterest.getPoiAddress());
+                openPoiDetails.putExtra("POI_DESCRIPTION", pointOfInterest.getPoiDescription());
                 openPoiDetails.putExtra("POI_IMAGE", pointOfInterest.getPoiImage());
                 startActivity(openPoiDetails);
             }

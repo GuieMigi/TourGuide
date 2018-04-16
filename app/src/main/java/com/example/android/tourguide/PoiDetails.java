@@ -21,18 +21,22 @@ public class PoiDetails extends AppCompatActivity {
 
         Intent getPoiName = getIntent();
         Intent getPoiAddress = getIntent();
+        Intent getPoiDescription = getIntent();
         Intent getPoiImage = getIntent();
 
         final String poiName = getPoiName.getStringExtra("POI_NAME");
         final String poiAddress = getPoiAddress.getStringExtra("POI_ADDRESS");
+        final String poiDescription = getPoiDescription.getStringExtra("POI_DESCRIPTION");
         final int poiImage = getPoiImage.getIntExtra("POI_IMAGE", 0);
 
         TextView poiNameTextView = findViewById(R.id.poi_name_details);
         TextView poiAddressTextView = findViewById(R.id.poi_address_details);
+        TextView poiDescriptionTextView = findViewById(R.id.poi_description_details);
         ImageView poiImageTextView = findViewById(R.id.poi_image_details);
 
         poiNameTextView.setText(poiName);
         poiAddressTextView.setText(poiAddress);
+        poiDescriptionTextView.setText(poiDescription);
         poiImageTextView.setImageResource(poiImage);
     }
 }

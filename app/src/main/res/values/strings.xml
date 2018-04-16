@@ -3,4 +3,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Attractions descriptions-->
+    <string name="ateneul_roman_description">The Romanian Athenaeum (Romanian: Ateneul Român) is a concert hall in the center of Bucharest, Romania and a landmark of the Romanian capital city. Opened in 1888, the ornate, domed, circular building is the city\'s main concert hall and home of the "George Enescu" Philharmonic and of the George Enescu annual international music festival.</string>
+
 </resources>

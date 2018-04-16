@@ -41,7 +41,7 @@ public class PointOfInterest extends AppCompatActivity {
     }
 
     // Get the Point of Interest website.
-    public String getPoiWebsite(){
+    public String getPoiDescription() {
         return mPoiDescription;
     }
 
