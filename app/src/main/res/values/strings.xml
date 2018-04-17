@@ -26,21 +26,67 @@
     <string name="palatul_parlamentului_description">Palatul Parlamentului (English: The Palace of the Parliament) is the seat of the Parliament of Romania. Located on Dealul Arsenalului in central Bucharest (Sector 5), it is the largest administrative building in the world. A colossal parliament building known for its ornate interior composed of 23 sections, it houses the Senate and the Chamber of Deputies, three museums and an international conference center.</string>
     <string name="teatrul_national_bucuresti_description">Teatrul Naţional "Ion Luca Caragiale" Bucureşti (English: The "Ion Luca Caragiale" National Theatre Bucharest) is one of the national theatres of Romania, located in the capital city of Bucharest. It was founded as the Teatrul cel Mare din Bucureşti ("Grand Theatre of Bucharest") in 1852, its first director being Costache Caragiale. It became a national institution in 1864 by a decree of Prime Minister Mihail Kogălniceanu, and was officially named as the National Theatre in 1875.</string>
 
-    <!-- TODO: Parks names -->
+    <!-- Parks names -->
+    <string name="parcul_herastrau_name">Parcul Herăstrău</string>
+    <string name="parcul_cismigiu_name">Parcul Cișmigiu</string>
+    <string name="parcul_carol_name">Parcul Carol I</string>
+    <string name="parcul_alexandru_ioan_cuza_name">Parcul Alexandru Ioan Cuza</string>
+    <string name="parcul_tineretului_name">Parcul Tineretului</string>
 
     <!-- TODO: Parks addresses -->
+    <string name="parcul_herastrau_address">Piața Charles de Gaulle nr. 3, București, România</string>
+    <string name="parcul_cismigiu_address">Bulevardul Regina Elisabeta, București, România</string>
+    <string name="parcul_carol_address">Bulevardul Mărășești, București, România</string>
+    <string name="parcul_alexandru_ioan_cuza_address">Bulevardul Nicolae Grigorescu, București, România</string>
+    <string name="parcul_tineretului_address">Bulevardul Tineretului, București, România</string>
 
     <!-- TODO: Parks descriptions -->
+    <string name="parcul_herastrau_description">Parcul Herăstrău is a large park on the northern side of Bucharest, Romania, around Lake Herăstrău, one of the lakes formed by the Colentina River. The park has an area of about 187 ha, of which 74 ha is the lake. Initially, the area was full of marshes, but these were drained between 1930 and 1935, and the park was opened in 1936. The park is divided into two zones: a rustic or natural zone (the Village Museum), which is left more or less undisturbed, and a public \'active\' domain with open areas for recreation activities. Small boats are allowed on the lake.</string>
+    <string name="parcul_cismigiu_description">Parcul Cișmigiu is a public park near the center of Bucharest, Romania, spanning areas on all sides of an artificial lake. The gardens\' creation was an important moment in the history of Bucharest. They form the oldest and, at 16 hectares, the largest park in the city\'s central area. The park was built in 1847, at a time when Bucharest was the capital of Wallachia, on a site formerly known as Lacul lui Dura neguțătorul (the "Lake of Dura the merchant"), or simply as Dura.</string>
+    <string name="parcul_carol_description">Parcul Carol is a public park in Bucharest, Romania, named after King Carol I of Romania. A French garden located in the southern-central area of Bucharest, partly on Filaret hill, originally capable of hosting various exhibitions, it suffered considerable modifications during the communist regime, including a name change to Parcul Libertății (Liberty Park). The park was designed by French landscape artist Édouard Redont in 1900 on Filaret Hill, under the supervision of Constantin Istrati, then president of the Romanian Academy. It was inaugurated in 1906, on the 40th anniversary of the coronation of King Carol I. The park had an initial surface area of 36 hectares, including the 20,000m² lake Filaret. It hosted the 1906 Bucharest Exhibition, and included many pavilions and buildings, of which only the Technical Museum and the open air Roman Arenas survive.</string>
+    <string name="parcul_alexandru_ioan_cuza_description">Parcul Alexandru Ioan Cuza (formerly known as Parcul IOR or Parcul Titan) is a public park in Bucharest. With a surface of about 85 Ha it is one of the biggest parks in Bucharest. Park development began in 1965 and ended five years later. In the park there is the Titan Lake (Lacul Titan), a natural lake separated by the Liviu Rebreanu bridge into two segments called Lake Titan 1 and Lake Titan 2.</string>
+    <string name="parcul_tineretului_description">Parcul Tineretului is a large public park in southern Bucharest. The park, which was created in 1965 and planned by the architect Valentin Donose, was designed as the main recreational space for southern Bucharest, an area which was heavily developed during the 1960s and 1970s. Aside from green areas, the park contains a number of playgrounds as well as a navigable lake, utilised by leisure boats during the summer. The south-east corner of the park is a children\'s area called "Orăşelul Copiilor" (English: Children\'s Mini-town). Within Orăşelul Copiilor one can find fair rides, small rollercoasters and other fun rides for all ages. There is also a mini train that takes people around the park. In 2013 the area was redesigned and new open-bars and recreational areas and attractions were constructed. Along them a new beautiful dancing fountain can be admired.</string>
 
     <!-- TODO: Restaurants names -->
+    <string name="caru_cu_bere">Caru\' cu bere</string>
+    <string name="nor_sky_casual_restaurant">NOR - Sky Casual Restaurant</string>
+    <string name="le_bistrot_francais">Le Bistrot Francais</string>
+    <string name="bucatarasul_cel_dibaci">Bucătărașul cel Dibaci</string>
+    <string name="kane">KANE</string>
 
     <!-- TODO: Restaurants addresses -->
+    <string name="caru_cu_bere_address">Strada Stavropoleos nr. 5, București, România</string>
+    <string name="nor_sky_casual_restaurant_address">Calea Floreasca nr. 246C, București, România</string>
+    <string name="le_bistrot_francais_address">Strada Nicolae Golescu, nr. 18, București, România</string>
+    <string name="bucatarasul_cel_dibaci_address">Strada Olteni nr. 3, București, România</string>
+    <string name="kane_address">Strada Tunari nr. 60, București, România</string>
 
     <!-- TODO: Restaurants opening hours -->
+    <string name="caru_cu_bere_hours">8:00 AM - 12:00 AM</string>
+    <string name="nor_sky_casual_restaurant_hours">10:00 AM - 12:00 AM</string>
+    <string name="le_bistrot_francais_hours">12:00 PM - 3:00 PM; 6:00 PM - 11:00 PM</string>
+    <string name="bucatarasul_cel_dibaci_hours">8:00 AM - 10:00 PM</string>
+    <string name="kane_hours">12:00 PM - 11:30 PM</string>
+
+    <!-- TODO: Restaurants phone number -->
+    <string name="caru_cu_bere_hours_phone">+40 727 262 373</string>
+    <string name="nor_sky_casual_restaurant_hours_phone">+40 31 005 6056</string>
+    <string name="le_bistrot_francais_hours_phone">+40 756 018 393</string>
+    <string name="bucatarasul_cel_dibaci_hours_phone">+40 722 663 379</string>
+    <string name="kane_hours_phone">+40 31 410 0016</string>
+
+    <!-- TODO: Restaurants website -->
+    <string name="caru_cu_bere_website">https://www.carucubere.ro</string>
+    <string name="nor_sky_casual_restaurant_website">http://www.norbucharest.ro</string>
+    <string name="le_bistrot_francais_website">http://www.lebistrotfrancais.ro</string>
+    <string name="bucatarasul_cel_dibaci_website">https://www.bucatarasul.ro</string>
+    <string name="kane_website">https://www.kane-restaurant.com</string>
 
     <!-- TODO: Nightlife names -->
 
     <!-- TODO: Nightlife addresses -->
 
-    <!-- TODO: Nightlife opening hours -->
+    <!-- TODO: Nightlife phone number -->
+
+    <!-- TODO: Nightlife website -->
 </resources>
