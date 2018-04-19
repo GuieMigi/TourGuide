@@ -18,11 +18,9 @@ import java.util.ArrayList;
  */
 public class ParksFragment extends Fragment {
 
-
     public ParksFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -65,5 +63,4 @@ public class ParksFragment extends Fragment {
         });
         return rootView;
     }
-
 }

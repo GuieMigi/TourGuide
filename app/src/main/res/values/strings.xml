@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">Tour Guide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <string name="poi_image_description">A representative image showing the point of interest</string>
     <!-- Attractions names-->
     <string name="ateneul_roman_name">Ateneul Român</string>
@@ -13,14 +10,14 @@
     <string name="teatrul_national_bucuresti_name">Teatrul Național \"Ion Luca Caragiale\" București</string>
 
     <!-- Attractions addresses-->
-    <string name="ateneul_roman_address">Benjamin Franklin street no. 1&#8211;3, Bucharest, Romania</string>
-    <string name="arcul_de_triumf_address">Arcul de Triumf square, Bucharest, Romania</string>
-    <string name="palatul_cec_address">Victoriei Way no. 13, Bucharest, Romania</string>
-    <string name="palatul_parlamentului_address">Izvor street no. 2&#8211;4, Bucharest, Romania</string>
-    <string name="teatrul_national_bucuresti_address">Nicolae Bălcescu Boulevard no. 2, Bucharest, Romania</string>
+    <string name="ateneul_roman_address">Strada Benjamin Franklin nr. 1&#8211;3, București, România</string>
+    <string name="arcul_de_triumf_address">Piața Arcul de Triumf, București, România</string>
+    <string name="palatul_cec_address">Calea Victoriei  nr. 13, București, România</string>
+    <string name="palatul_parlamentului_address">Strada Izvor nr. 2&#8211;4, București, România</string>
+    <string name="teatrul_national_bucuresti_address">Bulevardul Nicolae Bălcescu nr. 2, București, România</string>
 
     <!-- Attractions descriptions-->
-    <string name="ateneul_roman_description">Ateneul Român(English: The Romanian Athenaeum) is a concert hall in the center of Bucharest, Romania and a landmark of the Romanian capital city. Opened in 1888, the ornate, domed, circular building is the city\'s main concert hall and home of the "George Enescu" Philharmonic and of the George Enescu annual international music festival.</string>
+    <string name="ateneul_roman_description">Ateneul Român (English: The Romanian Athenaeum) is a concert hall in the center of Bucharest, Romania and a landmark of the Romanian capital city. Opened in 1888, the ornate, domed, circular building is the city\'s main concert hall and home of the "George Enescu" Philharmonic and of the George Enescu annual international music festival.</string>
     <string name="arcul_de_triumf_description">Arcul de Triumf (English: The Arch of Triumph) is a triumphal arch dedicated to the Heroes of the War of Independence and World War I. The Arch is located in the northern part of Bucharest. The current arch has a height of 27 metres and was built after the plans of the architect Petre Antonescu. It has as its foundation a 25 x 11.50 metres rectangle. The sculptures with which the facades are decorated were created by famous Romanian sculptors such as Ion Jalea and Dimitrie Paciurea. Presently, military parades are held beneath the arch each December 1, with the occasion of Romania\'s national holiday.</string>
     <string name="palatul_cec_description">Palatul CEC (English: The CEC Palace) built in 1900 and situated on Calea Victoriei is the headquarter of CEC Bank. The palace was built as a new headquarters for Romania\'s oldest bank, the public savings institution "Casa de Depuneri, Consemnațiuni și Economie", later known as C.E.C. (Romanian: Casa de Economii și Consemnațiuni), and nowadays CEC Bank.</string>
     <string name="palatul_parlamentului_description">Palatul Parlamentului (English: The Palace of the Parliament) is the seat of the Parliament of Romania. Located on Dealul Arsenalului in central Bucharest (Sector 5), it is the largest administrative building in the world. A colossal parliament building known for its ornate interior composed of 23 sections, it houses the Senate and the Chamber of Deputies, three museums and an international conference center.</string>
@@ -33,60 +30,81 @@
     <string name="parcul_alexandru_ioan_cuza_name">Parcul Alexandru Ioan Cuza</string>
     <string name="parcul_tineretului_name">Parcul Tineretului</string>
 
-    <!-- TODO: Parks addresses -->
+    <!-- Parks addresses -->
     <string name="parcul_herastrau_address">Piața Charles de Gaulle nr. 3, București, România</string>
     <string name="parcul_cismigiu_address">Bulevardul Regina Elisabeta, București, România</string>
     <string name="parcul_carol_address">Bulevardul Mărășești, București, România</string>
     <string name="parcul_alexandru_ioan_cuza_address">Bulevardul Nicolae Grigorescu, București, România</string>
     <string name="parcul_tineretului_address">Bulevardul Tineretului, București, România</string>
 
-    <!-- TODO: Parks descriptions -->
+    <!-- Parks descriptions -->
     <string name="parcul_herastrau_description">Parcul Herăstrău is a large park on the northern side of Bucharest, Romania, around Lake Herăstrău, one of the lakes formed by the Colentina River. The park has an area of about 187 ha, of which 74 ha is the lake. Initially, the area was full of marshes, but these were drained between 1930 and 1935, and the park was opened in 1936. The park is divided into two zones: a rustic or natural zone (the Village Museum), which is left more or less undisturbed, and a public \'active\' domain with open areas for recreation activities. Small boats are allowed on the lake.</string>
     <string name="parcul_cismigiu_description">Parcul Cișmigiu is a public park near the center of Bucharest, Romania, spanning areas on all sides of an artificial lake. The gardens\' creation was an important moment in the history of Bucharest. They form the oldest and, at 16 hectares, the largest park in the city\'s central area. The park was built in 1847, at a time when Bucharest was the capital of Wallachia, on a site formerly known as Lacul lui Dura neguțătorul (the "Lake of Dura the merchant"), or simply as Dura.</string>
     <string name="parcul_carol_description">Parcul Carol is a public park in Bucharest, Romania, named after King Carol I of Romania. A French garden located in the southern-central area of Bucharest, partly on Filaret hill, originally capable of hosting various exhibitions, it suffered considerable modifications during the communist regime, including a name change to Parcul Libertății (Liberty Park). The park was designed by French landscape artist Édouard Redont in 1900 on Filaret Hill, under the supervision of Constantin Istrati, then president of the Romanian Academy. It was inaugurated in 1906, on the 40th anniversary of the coronation of King Carol I. The park had an initial surface area of 36 hectares, including the 20,000m² lake Filaret. It hosted the 1906 Bucharest Exhibition, and included many pavilions and buildings, of which only the Technical Museum and the open air Roman Arenas survive.</string>
     <string name="parcul_alexandru_ioan_cuza_description">Parcul Alexandru Ioan Cuza (formerly known as Parcul IOR or Parcul Titan) is a public park in Bucharest. With a surface of about 85 Ha it is one of the biggest parks in Bucharest. Park development began in 1965 and ended five years later. In the park there is the Titan Lake (Lacul Titan), a natural lake separated by the Liviu Rebreanu bridge into two segments called Lake Titan 1 and Lake Titan 2.</string>
     <string name="parcul_tineretului_description">Parcul Tineretului is a large public park in southern Bucharest. The park, which was created in 1965 and planned by the architect Valentin Donose, was designed as the main recreational space for southern Bucharest, an area which was heavily developed during the 1960s and 1970s. Aside from green areas, the park contains a number of playgrounds as well as a navigable lake, utilised by leisure boats during the summer. The south-east corner of the park is a children\'s area called "Orăşelul Copiilor" (English: Children\'s Mini-town). Within Orăşelul Copiilor one can find fair rides, small rollercoasters and other fun rides for all ages. There is also a mini train that takes people around the park. In 2013 the area was redesigned and new open-bars and recreational areas and attractions were constructed. Along them a new beautiful dancing fountain can be admired.</string>
 
-    <!-- TODO: Restaurants names -->
+    <!-- Restaurants names -->
     <string name="caru_cu_bere_name">Caru\' cu bere</string>
     <string name="nor_sky_casual_restaurant_name">NOR - Sky Casual Restaurant</string>
     <string name="le_bistrot_francais_name">Le Bistrot Francais</string>
     <string name="bucatarasul_cel_dibaci_name">Bucătărașul cel Dibaci</string>
     <string name="kane_name">KANE</string>
 
-    <!-- TODO: Restaurants addresses -->
+    <!-- Restaurants addresses -->
     <string name="caru_cu_bere_address">Strada Stavropoleos nr. 5, București, România</string>
     <string name="nor_sky_casual_restaurant_address">Calea Floreasca nr. 246C, București, România</string>
-    <string name="le_bistrot_francais_address">Strada Nicolae Golescu, nr. 18, București, România</string>
+    <string name="le_bistrot_francais_address">Strada Nicolae Golescu nr. 18, București, România</string>
     <string name="bucatarasul_cel_dibaci_address">Strada Olteni nr. 3, București, România</string>
     <string name="kane_address">Strada Tunari nr. 60, București, România</string>
 
-    <!-- TODO: Restaurants opening hours -->
+    <!-- Restaurants opening hours -->
     <string name="caru_cu_bere_hours">8:00 AM - 12:00 AM</string>
     <string name="nor_sky_casual_restaurant_hours">10:00 AM - 12:00 AM</string>
     <string name="le_bistrot_francais_hours">12:00 PM - 3:00 PM; 6:00 PM - 11:00 PM</string>
     <string name="bucatarasul_cel_dibaci_hours">8:00 AM - 10:00 PM</string>
     <string name="kane_hours">12:00 PM - 11:30 PM</string>
 
-    <!-- TODO: Restaurants phone number -->
+    <!-- Restaurants phone number -->
     <string name="caru_cu_bere_phone">+40 727 262 373</string>
     <string name="nor_sky_casual_restaurant_phone">+40 31 005 6056</string>
     <string name="le_bistrot_francais_phone">+40 756 018 393</string>
     <string name="bucatarasul_cel_dibaci_phone">+40 722 663 379</string>
     <string name="kane_phone">+40 31 410 0016</string>
 
-    <!-- TODO: Restaurants website -->
+    <!-- Restaurants website -->
     <string name="caru_cu_bere_website">www.carucubere.ro</string>
     <string name="nor_sky_casual_restaurant_website">www.norbucharest.ro</string>
     <string name="le_bistrot_francais_website">www.lebistrotfrancais.ro</string>
     <string name="bucatarasul_cel_dibaci_website">www.bucatarasul.ro</string>
     <string name="kane_website">www.kane-restaurant.com</string>
 
-    <!-- TODO: Nightlife names -->
+    <!-- Nightlife names -->
+    <string name="boa_club_name">BOA - Beat Of Angels Bucharest</string>
+    <string name="bamboo_club_name">Bamboo Club Bucharest</string>
+    <string name="nomad_skybar_name">NOMAD Skybar</string>
+    <string name="control_club_name">Control Club</string>
+    <string name="vintage_pub_name">The Vintage Pub</string>
 
-    <!-- TODO: Nightlife addresses -->
+    <!-- Nightlife addresses -->
+    <string name="boa_club_address">Bulevardul Kiseleff nr. 32, București, România</string>
+    <string name="bamboo_club_address">Strada Caroteni, București, România</string>
+    <string name="nomad_skybar_address">Strada Smârdan nr. 30, București, România</string>
+    <string name="control_club_address">Strada Mille Constantin nr. 4, București, România</string>
+    <string name="vintage_pub_address">Strada Smârdan nr. 43, București, România</string>
 
-    <!-- TODO: Nightlife phone number -->
+    <!-- Nightlife phone number -->
+    <string name="boa_club_phone">+40 736 300 700</string>
+    <string name="bamboo_club_phone">+40 723 226 266</string>
+    <string name="nomad_skybar_phone">+40 735 448 080</string>
+    <string name="control_club_phone">+40 733 927 861</string>
+    <string name="vintage_pub_phone">+40 743 797 173</string>
 
-    <!-- TODO: Nightlife website -->
+    <!-- Nightlife website -->
+    <string name="boa_club_website">boa-beatofangels.com</string>
+    <string name="bamboo_club_website">bucharest.bambooclub.ro</string>
+    <string name="nomad_skybar_website">http://www.nomadskybar.ro</string>
+    <string name="control_club_website">www.control-club.ro</string>
+    <string name="vintage_pub_website">www.thevintagepub.ro</string>
+
 </resources>

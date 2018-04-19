@@ -29,7 +29,7 @@
             android:gravity="center"
             android:textSize="20sp"
             android:textStyle="bold"
-            tools:text="Ateneul Român" />
+            tools:text="@string/ateneul_roman_name" />
 
         <TextView
             android:id="@+id/poi_address_details"
@@ -38,7 +38,7 @@
             android:layout_marginBottom="16dp"
             android:gravity="center"
             android:textSize="14sp"
-            tools:text="Strada Benjamin Franklin nr. 1-3, București" />
+            tools:text="@string/ateneul_roman_address" />
 
         <TextView
             android:id="@+id/poi_description_details"
@@ -47,7 +47,16 @@
             android:layout_marginBottom="4dp"
             android:gravity="center"
             android:textSize="16sp"
-            tools:text="Ateneul Român este o sală de concerte din București, situată pe Calea Victoriei, în Piața George Enescu (în partea nordică a Pieței Revoluției). Clădirea, care este realizată într-o combinație de stil neoclasic cu stil eclectic, a fost construită între 1886 și 1888, după planurile arhitectului francez Albert Galleron. În prezent, adăpostește și sediul Filarmonicii „George Enescu”." />
+            tools:text="@string/ateneul_roman_description" />
+
+        <TextView
+            android:id="@+id/poi_opening_hours_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:textColorLink="@android:color/tertiary_text_dark"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/poi_phone_details"

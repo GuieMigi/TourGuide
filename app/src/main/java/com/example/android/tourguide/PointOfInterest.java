@@ -32,6 +32,14 @@ public class PointOfInterest extends AppCompatActivity {
         mPoiImage = poiImage;
     }
 
+    public PointOfInterest(String poiName, String poiAddress, String poiPhoneNumber, String poiWebsite, int poiImage) {
+        mPoiName = poiName;
+        mPoiAddress = poiAddress;
+        mPoiPhoneNumber = poiPhoneNumber;
+        mPoiWebsite = poiWebsite;
+        mPoiImage = poiImage;
+    }
+
     public PointOfInterest(String poiName, String poiAddress, String poiDescription, int poiImage) {
         mPoiName = poiName;
         mPoiAddress = poiAddress;

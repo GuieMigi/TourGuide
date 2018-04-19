@@ -39,6 +39,7 @@ public class PoiDetails extends AppCompatActivity {
         TextView poiNameTextView = findViewById(R.id.poi_name_details);
         TextView poiAddressTextView = findViewById(R.id.poi_address_details);
         TextView poiDescriptionTextView = findViewById(R.id.poi_description_details);
+        TextView poiOpeningHoursTextView = findViewById(R.id.poi_opening_hours_details);
         TextView poiPhoneNumberTextView = findViewById(R.id.poi_phone_details);
         TextView poiWebsiteTextView = findViewById(R.id.poi_website_details);
         ImageView poiImageView = findViewById(R.id.poi_image_details);
@@ -47,8 +48,12 @@ public class PoiDetails extends AppCompatActivity {
         poiAddressTextView.setText(poiAddress);
 
         if (poiDescription == null) {
-            poiDescriptionTextView.setText(poiOpeningHours);
+            poiDescriptionTextView.setVisibility(View.GONE);
         } else poiDescriptionTextView.setText(poiDescription);
+
+        if (poiOpeningHours == null) {
+            poiOpeningHoursTextView.setVisibility(View.GONE);
+        } else poiOpeningHoursTextView.setText(poiOpeningHours);
 
         if (poiPhoneNumber == null) {
             poiPhoneNumberTextView.setVisibility(View.GONE);
