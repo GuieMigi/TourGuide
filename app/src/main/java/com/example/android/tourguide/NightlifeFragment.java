@@ -30,7 +30,7 @@ public class NightlifeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.pointofinterest_list, container, false);
 
-        //Create an ArrayList containing the PointOfInterest.
+        // Create an ArrayList containing the PointOfInterest.
         ArrayList<PointOfInterest> pois = new ArrayList<>();
         pois.add(new PointOfInterest(getString(R.string.boa_club_name), getString(R.string.boa_club_address),
                 getString(R.string.boa_club_phone), getString(R.string.boa_club_website),
@@ -48,11 +48,14 @@ public class NightlifeFragment extends Fragment {
                 getString(R.string.vintage_pub_phone), getString(R.string.vintage_pub_website),
                 R.drawable.vintage_pub));
 
+        // Create a PointOfInterestAdapter whose data source is a list of PointOfInterest.
         final ListView listView = rootView.findViewById(R.id.list_view);
         PointOfInterestAdapter poiAdapter = new PointOfInterestAdapter(getActivity(), pois);
-
+        // Make the ListView use the WordAdapter created above.
         listView.setAdapter(poiAdapter);
 
+        // OnItemClickListener that finds the clicked item in the ListView
+        // and send the information to the next activity using an Intent.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {

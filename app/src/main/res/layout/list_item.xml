@@ -33,13 +33,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            tools:text="Ateneul Român" />
+            tools:text="@string/ateneul_roman_name" />
 
         <TextView
             android:id="@+id/poi_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="Strada Benjamin Franklin nr. 1-3, București" />
+            tools:text="@string/ateneul_roman_address" />
 
     </LinearLayout>
 

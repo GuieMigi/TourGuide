@@ -27,7 +27,7 @@ public class RestaurantsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.pointofinterest_list, container, false);
 
-        //Create an ArrayList containing the PointOfInterest.
+        // Create an ArrayList containing the PointOfInterest.
         final ArrayList<PointOfInterest> pois = new ArrayList<>();
         pois.add(new PointOfInterest(getString(R.string.caru_cu_bere_name), getString(R.string.caru_cu_bere_address),
                 getString(R.string.caru_cu_bere_hours), getString(R.string.caru_cu_bere_phone),
@@ -45,10 +45,14 @@ public class RestaurantsFragment extends Fragment {
                 getString(R.string.kane_hours), getString(R.string.kane_phone),
                 getString(R.string.kane_website), R.drawable.kane));
 
+        // Create a PointOfInterestAdapter whose data source is a list of PointOfInterest.
         final ListView listView = rootView.findViewById(R.id.list_view);
         PointOfInterestAdapter poiAdapter = new PointOfInterestAdapter(getActivity(), pois);
+        // Make the ListView use the WordAdapter created above.
         listView.setAdapter(poiAdapter);
 
+        // OnItemClickListener that finds the clicked item in the ListView
+        // and send the information to the next activity using an Intent.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
