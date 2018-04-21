@@ -2,6 +2,7 @@ package com.example.android.tourguide;
 
 import android.app.FragmentManager;
 import android.content.Context;
+import android.content.res.Resources;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 
@@ -11,8 +12,12 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
+    // Context of the app.
+    private Context mContext;
+
     public CategoryAdapter(Context context, android.support.v4.app.FragmentManager fragmentManager){
         super(fragmentManager);
+        mContext = context;
     }
 
     @Override
@@ -34,11 +39,11 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0){
-            return "Attractions";
+            return mContext.getResources().getString(R.string.attractions_tab);
         } else if (position == 1){
-            return "Parks";
+            return mContext.getResources().getString(R.string.parks_tab);
         } else if (position == 2){
-            return "Restaurants";
-        } else return "Nightlife";
+            return mContext.getResources().getString(R.string.restaurants_tab);
+        } else return mContext.getResources().getString(R.string.nightlife_tab);
     }
 }
